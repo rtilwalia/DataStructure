@@ -1,0 +1,119 @@
+1.Take as input String.
+
+2.Take as input Integer "i" which I used to verify your return type String.
+
+a. Write a recursive function which counts the number of times ‘hi’ appears in the string. Print the value returned.
+
+b. Write a recursive function which removes all ‘hi’ in the string. Print the i'th index character.
+
+c. Write a recursive function which removes all ‘hi’ in the string. Print the output (return type void).
+
+Input Format
+
+String representing S. An integer for index.
+
+Constraints
+
+Size of String may be large.
+
+Output Format
+
+print the output.
+
+Sample Input 0
+
+hihihijjhihi
+1
+Sample Output 0
+
+5
+j
+jj
+
+
+
+You are given a number n.
+Write a recursive function to create a pattern as shown in output format
+Input Format
+
+A number n
+
+Constraints
+
+1 <= n <= 10
+
+Output Format
+
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+
+Sample Input 0
+
+5
+Sample Output 0
+
+1    
+1    1    
+1    2    1    
+1    3    3    1    
+1    4    6    4    1   
+
+
+1.Take as input N, a number. N is the size of a 1 dimensional snakes and ladder board (without any snakes and ladders).
+
+2.Take as input M, a number. M is the number of faces of the dice.
+
+a. Write a recursive function which returns the count of different ways the board can be travelled using the dice. Print the value returned.
+
+b. Write a recursive function which returns an ArrayList of dice values for all valid paths across the board. Print the value returned.
+
+Input Format
+
+Two integers n,m
+
+Constraints
+
+1<= n <=1000000000
+
+Output Format
+
+print number of total paths
+
+print all the paths
+
+Sample Input 0
+
+5
+6
+Sample Output 0
+
+16
+[11111, 1112, 1121, 113, 1211, 122, 131, 14, 2111, 212, 221, 23, 311, 32, 41, 5]
+
+
+
+1.Take as input String.
+
+Write a recursive function which tests if the brackets in expression are balanced or not and returns a Boolean value. Print the value returned.
+
+Input Format
+
+String representing S.
+
+Constraints
+
+Size of String may be large.
+
+Output Format
+
+print the output
+
+Sample Input 0
+
+[a+{b+(c+d)+e}+f]
+Sample Output 0
+
+true
